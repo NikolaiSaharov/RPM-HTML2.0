@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background-image: url(/img/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: momentum_r;
+    src: url(../fonts/MonumentExtended-Regular.otf);
+    font-weight: 300;
+}
+
+.mini__text {
+    display: flex;
+    font-family: momentum_r, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -21vh;
+    position: absolute;
+    padding-left: 60px;
+
+
+}
+
+.price {
+    font-family: momentym_r, sans-serif;
+    color: red;
+    font-size: 50px;
+    font-weight: 1000;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 47vh;
+}
+
+.text_n {
+    font-family: momentym_r, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 48vh;
+}
+.text_pod{
+    font-family: momentym_r,sans-serif;
+    color: #fff;
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 950px;
+}
+.pod_text{
+    font-family: momentym_r,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.title{
+    font-family: momentym_r,sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.text_m {
+    font-family: momentym_r, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 53vh;
+    padding-left: 8vw;
+}
+
+.nada {
+    font-family: momentym_r, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: space-between;
+    position:static;
+
+}
+
+.container {
+    margin: 0px 50px;
+}
+
+
+
+.header-line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+    display: inline-block;
+    word-spacing: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: momentum_r, sans-serif;
+    margin-right: 30px;
+
+}
+
+a:hover {
+    text-decoration: underline 2px;
+    text-decoration-color: red;
+}
+
+.shoe {
+
+    position: relative;
+    float: left;
+    margin-top: 470px;
+    width: 160px;
+
+}
+
+
+.button {
+    padding: 15px 25px;
+    cursor: pointer;
+    align-items: center;
+    font-family: momentum_r, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 67vh;
+    margin-right: 40px;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.but {
+    display: flex;
+    padding: 20px 35px;
+    cursor: pointer;
+    align-items: center;
+    background-color: transparent;
+
+    font-family: momentum_r, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+
+}
+
+.button:hover {
+    background-color: #fff;
+    color: black;
+
+}
